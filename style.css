@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    background: url(./head.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.center-column {
+    text-align: center;
+}
+
+
+/* .right-image1 {
+    background-image: url('./ryt-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.left-image {
+    background-image: url('./left-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.right-image2 {
+    background-image: url('./ryt-2.jpg');
+    background-size: cover;
+    background-position: center;
+} */
+
+.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: white;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.news {
+    min-height: 300px;
+    background: url(./head.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+}
